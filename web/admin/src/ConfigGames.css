@@ -1,0 +1,10 @@
+#outline {
+  width: 50%;
+  float: left;
+}
+
+#map {
+  width: 50%;
+  height: 100%;
+  float: right;
+}

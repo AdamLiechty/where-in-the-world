@@ -1,0 +1,22 @@
+.App-intro {
+  font-size: large;
+  text-align: center;
+}
+
+.avatar {
+  width: 40px;
+}
+
+html, body, #root, #root > div, #big-score > div {
+  height: 100%;
+}
+
+body
+{
+  margin:0;
+  padding:0;
+  font-family:Helvetica;
+  font-size:11pt;
+  background-color:#f7f7f7;
+  color:#333
+}

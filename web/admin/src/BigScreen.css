@@ -1,0 +1,63 @@
+#big-map {
+  width: 100%;
+  height: 100%;
+  background-color: #a3ccff;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#big-score {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  transition: opacity 1.0s;
+}
+
+#avatar-scores, #LineChart {
+  float: left;
+}
+
+#avatar-scores {
+  padding-top: 20px;
+}
+
+#avatar-scores span {
+  font-weight: bold;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 50%;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+.avatar img {
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.big-score-enter {
+  opacity: 0.01;
+}
+.big-score-enter.big-score-enter-active {
+  opacity: 1;
+  transition: opacity 1.0s ease-in;
+}
+.big-score-leave {
+  opacity: 1;
+}
+.big-score-leave.big-score-leave-active {
+  opacity: 0.01;
+  transition: opacity 0.25s ease-in;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "admin",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": ".",
+  "dependencies": {
+    "@doubledutch/admin-client": "^1.0.1",
+    "@doubledutch/firebase-connector": "^3.1.1",
+    "qs": "^6.5.1",
+    "react": "^16.0.0",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-dom": "^16.0.0",
+    "react-google-charts": "^1.5.5",
+    "react-scripts": "1.0.14"
+  },
+  "scripts": {
+    "start": "node emulator",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
