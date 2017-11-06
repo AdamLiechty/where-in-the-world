@@ -2,14 +2,17 @@
 # yarn lockfile v1
 
 
-"@doubledutch/admin-client@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@doubledutch/admin-client/-/admin-client-1.0.1.tgz#3691ce4fdd3db4ef6b387bc4568048b76e4a1a9b"
-
-"@doubledutch/firebase-connector@^3.1.1":
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/@doubledutch/firebase-connector/-/firebase-connector-3.1.1.tgz#ff67ab611512eeac03848d7d4e4cee0a4cf139da"
+"@doubledutch/admin-client@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@doubledutch/admin-client/-/admin-client-1.0.2.tgz#774f22144554e37d794b5b09c21784b4024e2af2"
   dependencies:
+    babel-runtime "^6.26.0"
+
+"@doubledutch/firebase-connector@^3.2.3":
+  version "3.2.3"
+  resolved "https://registry.yarnpkg.com/@doubledutch/firebase-connector/-/firebase-connector-3.2.3.tgz#606f87f259447e10e9477e3693912676cfba5e0a"
+  dependencies:
+    babel-runtime "^6.26.0"
     firebase "^4.6.0"
 
 "@firebase/app@^0.1.1":

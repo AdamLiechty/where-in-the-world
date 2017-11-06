@@ -4,8 +4,8 @@
   "private": true,
   "homepage": ".",
   "dependencies": {
-    "@doubledutch/admin-client": "^1.0.1",
-    "@doubledutch/firebase-connector": "^3.1.1",
+    "@doubledutch/admin-client": "^1.0.2",
+    "@doubledutch/firebase-connector": "^3.2.3",
     "qs": "^6.5.1",
     "react": "^16.0.0",
     "react-addons-css-transition-group": "^15.6.2",
